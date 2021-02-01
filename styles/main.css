@@ -1,0 +1,23 @@
+body{
+  background-color: #ecfbff!important;
+}
+
+.container{
+  height: 100vh;
+}
+.btn{
+  width: 100%;
+  margin: 1.5rem 0;
+}
+.alert-error{
+  display: inline-flex!important;
+  position: absolute!important;
+  top: 1rem;
+  left: 1rem;
+  transform: translateY(-140%);
+
+  transition: transform .5s ease-in-out;
+}
+.alert-error-show{
+  transform: translateY(0%)!important;
+}
